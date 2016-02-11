@@ -1,0 +1,47 @@
+{
+  "name": "promise-prototype",
+  "description": "Get the prototytpe of the Promise class (Native ES6, Bluebird, Q, RSVP, etc.)",
+  "version": "0.1.0",
+  "homepage": "https://github.com/AndreasPizsa/promise-prototype",
+  "author": "Andreas Pizsa (https://github.com/AndreasPizsa)",
+  "repository": "AndreasPizsa/promise-prototype",
+  "bugs": {
+    "url": "https://github.com/AndreasPizsa/promise-prototype/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.14.0"
+  },
+  "scripts": {
+    "test": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.2",
+    "mocha-lcov-reporter": "^1.0.0",
+    "bluebird": "*",
+    "mocha": "*",
+    "q": "*",
+    "rsvp": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "promise",
+    "promises",
+    "prototype",
+    "native",
+    "es6",
+    "bluebird",
+    "q",
+    "rsvp",
+    "any-promise"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
