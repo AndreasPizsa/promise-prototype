@@ -1,5 +1,7 @@
 # promise-prototype ![Travis](https://img.shields.io/travis/AndreasPizsa/promise-prototype.svg?style=flat-square) ![Coverage Status](https://img.shields.io/coveralls/AndreasPizsa/promise-prototype.svg?style=flat-square) ![Downloads](https://img.shields.io/npm/dm/promise-prototype.svg?style=flat-square)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/AndreasPizsa/promise-prototype.svg)](https://greenkeeper.io/)
+
 > Get the prototytpe of the Promise class (Native ES6, Bluebird, Q, RSVP, etc.)
 
 ## Install
